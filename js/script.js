@@ -11,13 +11,8 @@ function newItem(){
      alert("You must write something!");
    } else {
      $('#list').append(li);
-     $('#input').text("");
+     $('#input').val("");
    }
-
-// Attempt to clear input text:
-
-//   let addButton = $('#button');
-//   addButton.on("click", input.text(""));
 
  // Crossing out an item from the list of items:
 
